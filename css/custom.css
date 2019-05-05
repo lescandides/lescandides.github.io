@@ -111,6 +111,21 @@ nav a:hover {
      box-shadow: .1em .1em .2em rgba(255,255,255, .75);
      opacity: 75%;
  }
+ 
+ .title {
+     color: white;
+	 float: left;
+	font-style: oblique;
+	font-variant: small-caps;
+ }
+ 
+ .title1 {
+     color: white;
+	 float: left;
+	font-style: oblique;
+	font-variant: small-caps;
+ }
+ 
 
 /* ===============
    json error div
