@@ -1,12 +1,16 @@
 
 
+
+
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	
 }
 
 .wrapper {
     width: 90%;
     margin: 0 5%;
+	 
 }
 
 /* ===================
@@ -86,6 +90,7 @@ nav a:hover {
     padding: 20px 0;
 }
 
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -98,7 +103,7 @@ nav a:hover {
     title image
    =============== */
  .title::before {
-     background-image: url("../img/logo.jpg");
+     background-image: url("../img/logo.png");
      content: ' ';
      background-repeat: no-repeat;
      background-size: 2em;
@@ -152,4 +157,101 @@ fieldset{
 legend{
     border: dotted 1px;
 }
+
+
+
+
+
+
+
+article {
+  float: right;
+  margin: 5px;
+  padding: 5;
+}
+
+section{
+	
+	background-color: LightYellow;
+	box-shadow: 5px 10px 8px 10px #888888;
+	border-radius: 5px;
+}
+
+p {text-align: justify;	
+}
+
+.h3{
+	color: red;
+}
+
+
+
+
+  .d{
+	float: left;
+	margin: 5px;
+	padding: 5
+}
+
+
+
+figure{
+	display: inline;
+}
+
+
+
+
+
+.downs {
+  width: 200px;
+  float: left;
+  margin: 18px;
+  padding: 12px;
+}
+
+
+
+.downs a {
+  background-color: #e44d26;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  
+  
+}
+
+.downs a:hover {
+  background-color: #e44d26;
+}
+
+
+
+
+#playlist,audio{background:#666;width:250px;padding:20px;}
+.active a{color:#5DB0E6;text-decoration:none;}
+li a{color:#eeeedd;background:#333;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
+li {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
