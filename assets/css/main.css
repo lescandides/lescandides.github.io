@@ -2043,12 +2043,147 @@ input, select, textarea {
 
 
  .membres{
-	 width: 800px;
-	 height: 400px;
+	 width: 500px;
+	 height: 300px;
 padding: 40px 30px 45px 30px;
 box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
 margin: 0 0 25px 0;
 padding: 30px 20px;
 }
  
+ 
+ * {
+  box-sizing: border-box;
+}
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+/* Icons */
+	ul.icons {
+		position: relative;
+		background: rgba(128, 128, 128, 0.05);
+		border-radius: 4em;
+		display: inline-block;
+		padding: 0.35em 0.75em 0.35em 0.75em;
+		font-size: 1.25em;
+		cursor: default;
+		list-style: none;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			padding-left: 0;
+		}
+
+			ul.icons li a {
+				display: inline-block;
+				background: none;
+				width: 2.5em;
+				height: 2.5em;
+				line-height: 2.5em;
+				text-align: center;
+				border-radius: 100%;
+				border: 0;
+				color: inherit;
+			}
+
+				ul.icons li a:hover {
+					color: #ef8376;
+				}
+				
+.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.circled {
+			position: relative;
+			display: inline-block;
+			background: #2b252c;
+			color: #fff;
+			border-radius: 100%;
+			line-height: 3.25em;
+			text-align: center;
+			font-size: 1.25em;
+		}
+
+/* Footer */
+
+	#footer {
+		position: relative;
+		overflow: hidden;
+		padding: 1em 0 1em 0;
+		background: #2b252c;
+		color: #fff;
+	}
+
+		#footer .icon.circled {
+			background: #fff;
+			color: #2b252c;
+		}
+
+		#footer header {
+			text-align: center;
+			cursor: default;
+		}
+
+		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+			color: #fff;
+		}
+
+		#footer .contact {
+			text-align: center;
+		}
+
+			#footer .contact p {
+				text-align: center;
+				margin: 0 0 3em 0;
+			}
+
+		#footer .copyright {
+			text-align: center;
+			color: rgba(128, 128, 128, 0.75);
+			font-size: 0.8em;
+			cursor: default;
+		}
+
+			#footer .copyright a {
+				color: rgba(128, 128, 128, 0.75);
+			}
+
+				#footer .copyright a:hover {
+					color: rgba(212, 212, 212, 0.85);
+				}
+
+
  
